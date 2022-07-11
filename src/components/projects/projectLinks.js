@@ -10,6 +10,8 @@ let projectsLink = [
   {
     id: 2, 
     siteName: "Furniture Store",
+    backgroundImage: "https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+
     project: "https://0408furnitureshop.netlify.app/",
     about:
       "Furniture store page a task to demonstrate the ability to create pixel exact and responsive pages.For styling I’ve used CSS.",
@@ -25,6 +27,8 @@ let projectsLink = [
   {
     id: 4,
     siteName: "Travel Space",
+    backgroundImage: "https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+
     project: "https://0408travelspace.netlify.app/",
     about:
       "Space travel app is another JS app, where I have used AJAX and pure JS to create single page App. Styling is done in SCC based on Figma design.",
