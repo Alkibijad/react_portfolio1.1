@@ -17,6 +17,7 @@ let projectsLink = [
   {
     id: 3, 
     siteName: "Cofee Roasters",
+    backgroundImage: "https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     project: "https://0408cofferoasters.netlify.app/",
     about:
       "Cofeeroasters page is created using Vanilla JS. Demonstrate the skills of creating single page application with JS. I have used Figma design.",
