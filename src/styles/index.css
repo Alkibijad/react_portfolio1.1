@@ -78,4 +78,11 @@ p {
   height: 100vh;
   margin-left: 1%;
   min-width: 500px;
+  border: 1px solid red;
+}
+
+.card_container {
+  border: 1px solid red;
+  width: 50%;
+  height: 200px;
 }/*# sourceMappingURL=index.css.map */

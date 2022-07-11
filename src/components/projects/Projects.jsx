@@ -2,7 +2,12 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import projectLinks from "./projectLinks"
 
+
+
+
+
 function Projects() {
+
 
   const [links, setLinks] = useState();
 
@@ -18,8 +23,8 @@ function Projects() {
 
   const createProjectCard = () => { 
     return <>{links.map((item) => { 
-      return <div key={ item.id} className='card_container'>
-        <button><a href={item.project}>Visit Nike</a></button>
+      return <div key={item.id} className='card_container' >
+        <button><a href={item.project}>{ item.siteName}</a></button>
         <p className='card_text'>{item.about }</p>
         </div>
     })}</>
