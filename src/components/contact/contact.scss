@@ -1,0 +1,63 @@
+
+
+$red: rgb(235, 40, 60);
+
+.form-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+input,
+textarea {
+  width: 400px;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  margin-bottom: 5px;
+}
+
+textarea {
+  resize: none;
+}
+#contact-input::placeholder {
+  color: white;
+}
+#btn-contact {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#forma {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#social-media-icons {
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  a {
+    color: $red;
+    i {
+      font-size: 50px;
+    }
+  }
+}

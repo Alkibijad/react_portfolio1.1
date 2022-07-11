@@ -1,0 +1,13 @@
+.cover_letter {
+  text-align: justify;
+  height: 95%;
+}
+.cover_letter p {
+  padding: 10px 0;
+}
+.cover_letter h1, .cover_letter h4 {
+  text-align: center;
+}
+.cover_letter span {
+  color: rgb(235, 40, 60);
+}/*# sourceMappingURL=coverLetter.css.map */

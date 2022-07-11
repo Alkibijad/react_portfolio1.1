@@ -1,0 +1,19 @@
+.developer_signature {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  font-family: "Kaushan Script", cursive;
+  transform: rotate(-20deg);
+}
+.developer_signature #dev_signature {
+  font-size: 80px;
+  letter-spacing: 2px;
+}
+
+.poem-container {
+  height: 95%;
+  overflow: scroll;
+}
+.poem-container .verse {
+  padding: 10px 0;
+}/*# sourceMappingURL=home.css.map */

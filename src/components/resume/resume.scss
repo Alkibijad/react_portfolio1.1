@@ -1,0 +1,54 @@
+$darkBlue: rgb(29, 53, 87);
+$lightBlue: rgba(168, 218, 220);
+
+.resume-container {
+  height: 95%;
+  overflow: scroll;
+  #developers-name {
+    text-align: center;
+    font-family: "Kaushan Script", cursive;
+    letter-spacing: 5px;
+  }
+  .btnDownload-file {
+    color: $darkBlue;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .qualifications {
+    text-align: justify;
+  }
+  .expertise {
+    .list-container {
+      display: grid;
+      grid-template-columns: 2fr 10fr;
+    }
+  }
+  .expiriance {
+    .each-job-details {
+      margin: 30px 0;
+      &:hover {
+        box-shadow: 0px 0px 50px -7px rgba(235, 40, 62, 1);
+        transition: 0.9s;
+      }
+    }
+  }
+  .each-job-details {
+    .employer-position-time {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+
+      p {
+        color: $lightBlue;
+      }
+    }
+    .resume-text {
+      text-align: justify;
+      padding: 10px 0;
+    }
+  }
+}
