@@ -2,6 +2,7 @@ let projectsLink = [
   {
     id: 1,
     siteName: "Nike",
+    backgroundImage: "https://i.pinimg.com/originals/d6/dc/00/d6dc008ab978b02f777ab8545eefeac5.jpg",
     project: "https://0408nike.netlify.app/",
     about:
       "I chose nike.com site, to demonstrate ability to where I’ll be working based on the task given, and recreate the best possible copy of existing project. For this page I have created JSON on my GitHub, then using AJAX to fetch data. Styling is done using SCSS.",

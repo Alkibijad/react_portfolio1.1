@@ -23,7 +23,8 @@ function Projects() {
 
   const createProjectCard = () => { 
     return <>{links.map((item) => { 
-      return <div key={item.id} className='card_container' >
+      return <div key={item.id} className='card_container'>
+        <div className='img_container'><img src={ item.backgroundImage } alt="" /></div>
         <button><a href={item.project}>{ item.siteName}</a></button>
         <p className='card_text'>{item.about }</p>
         </div>
